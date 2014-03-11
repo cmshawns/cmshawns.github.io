@@ -1,0 +1,23 @@
+body {
+    font-family: Consolas, sans-serif;
+    background-color: white;
+}
+div#support-options h2 {
+    background-color: black;
+    color: white;
+    padding-left: 4px;
+}
+
+div#support-options h3 {
+    border-bottom: solid darkslategray thin;
+    border-left: solid darkslategray thin;
+    padding-left: 2px;
+}
+
+p.center {
+    text-align: center;
+}
+
+div.divider-vertical {
+    border-left: solid thin black;
+}
