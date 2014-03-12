@@ -14,19 +14,13 @@ div#support-options h3 {
     padding-left: 2px;
 }
 
+/* General styles */
 div.services {
     padding: 0;
 }
 
 div.divider-vertical {
     border-left: solid thin black;
-}
-
-div#bountysource img {
-}
-
-div#bountify img {
-    margin-top: 9px;
 }
 
 p.service-logo {
@@ -38,14 +32,6 @@ p.service-notes {
     padding: 0;
 }
 
-div#bountysource p.service-logo {
-    margin-bottom: 0px;
-}
-
-div#bountysource p.service-notes {
-    margin-top: 0px;
-}
-
 div.learn-more {
     font-size: 80%;
     text-align: right;
@@ -54,6 +40,35 @@ div.learn-more a {
     text-decoration: none;
 }
 
+/* individual style overrides */
+div#gittip p.service-logo {
+    margin-bottom: 0;
+}
+
+div#gittip img {
+    margin-top: 14px;
+}
+
+div#gittip p.service-notes {
+    margin-top: 24px;
+}
+
+div#bountysource img {
+}
+
+div#bountify img {
+    margin-top: 10px;
+}
+
+div#bountysource p.service-logo {
+    margin-bottom: 0;
+}
+
+div#bountysource p.service-notes {
+    margin-top: 0;
+}
+
+/* Generic tweaks */
 .center {
     text-align: center;
 }
