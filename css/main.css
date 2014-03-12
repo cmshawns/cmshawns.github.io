@@ -14,10 +14,46 @@ div#support-options h3 {
     padding-left: 2px;
 }
 
-p.center {
-    text-align: center;
+div.services {
+    padding: 0;
 }
 
 div.divider-vertical {
     border-left: solid thin black;
+}
+
+div#bountysource img {
+}
+
+div#bountify img {
+    margin-top: 9px;
+}
+
+p.service-logo {
+    margin-top: 0;
+    text-align: center;
+}
+
+p.service-notes {
+    padding: 0;
+}
+
+div#bountysource p.service-logo {
+    margin-bottom: 0px;
+}
+
+div#bountysource p.service-notes {
+    margin-top: 0px;
+}
+
+div.learn-more {
+    font-size: 80%;
+    text-align: right;
+}
+div.learn-more a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
 }
