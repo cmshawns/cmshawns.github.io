@@ -3,14 +3,17 @@ body {
     background-color: white;
 }
 div#support-options h2 {
-    background-color: black;
-    color: white;
+    background-color: darkslateblue;
+    color: lightgoldenrodyellow;
     padding-left: 4px;
 }
 
 div#support-options h3 {
+/*
     border-bottom: solid darkslategray thin;
     border-left: solid darkslategray thin;
+*/
+    border: solid darkslateblue thin;
     padding-left: 2px;
 }
 
@@ -40,7 +43,22 @@ div.learn-more a {
     text-decoration: none;
 }
 
+p.profile-link {
+    background-color: silver;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2px;
+}
+
+p.profile-link a {
+    text-decoration: none;
+}
+
 /* individual style overrides */
+h2#title {
+    color: darkslateblue;
+}
+
 div#gittip p.service-logo {
     margin-bottom: 0;
 }
