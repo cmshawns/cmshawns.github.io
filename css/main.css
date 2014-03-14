@@ -2,17 +2,13 @@ body {
     font-family: Consolas, sans-serif;
     background-color: white;
 }
-div#support-options h2 {
+section h2 {
     background-color: darkslateblue;
     color: lightgoldenrodyellow;
     padding-left: 4px;
 }
 
-div#support-options h3 {
-/*
-    border-bottom: solid darkslategray thin;
-    border-left: solid darkslategray thin;
-*/
+section h3 {
     border: solid darkslateblue thin;
     padding-left: 2px;
 }
@@ -57,6 +53,12 @@ p.profile-link a {
 /* individual style overrides */
 h2#title {
     color: darkslateblue;
+}
+
+section#projects h3 {
+    color: darkslateblue;
+    border: none;
+    margin-bottom: 1px;
 }
 
 div#gittip p.service-logo {

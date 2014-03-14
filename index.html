@@ -5,12 +5,13 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 		<link rel="stylesheet" href="css/unsemantic-grid-responsive.css" />
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
   <body>
 		<div class="grid-container">
 			<div class="grid-75">
 				<div id="greeting">
-					<h2>Hi, I'm Shawn</h2>
+					<h2 id="title">Hi, I'm Shawn</h2>
 					<p>
 						Welcome to my personal space for software development and related
 						projects.
@@ -30,8 +31,8 @@
 						what I do in my own time.
 					</p>
 				</div>
-				<div id="projects">
-					<h2>Projects</h2>
+				<section id="projects">
+					<h2>Current projects</h2>
 					<ul>
 						<li>
 							<h3>SociaLib - Social Network Integration</h3>
@@ -41,10 +42,16 @@
 							</ul>
 						</li>
 					</ul>
-				</div>
+				</section>
+                <section id="potential-projects">
+                    <h2>Potential projects</h2>
+                    <ul>
+                        <li>A mobile app for <a href="http://www.nutritionix.com">NutritionIX</a>.</li>
+                    </ul>
+                </section>
 			</div>
 			<div class="grid-25">
-				<div id="profiles">
+				<section id="profiles">
 					<h3>More about me</h3>
 					<ul>
 						<li>
@@ -63,9 +70,9 @@
 							profile</a>
 						</li>
 					</ul>
-				</div>
-				<div id="supportme">
-					<h3>Support me</h3>
+				</section>
+				<section id="supportme">
+					<h3>Support my work</h3>
 					<div id="gittip">
 						<p>
 							You can help support the work that I do in any of the
@@ -87,11 +94,11 @@
 								href="http://amzn.com/w/38FS6SBIPEZ5">Amazon wishlist</a>
 							</li>
 						</ul>
-						<p>
+						<p class="center">
 							<a href="support.html">Why support Shawn?</a>
 						</p>
 					</div>
-				<div>
+				</section>
 			</div>
 		</div>
   </body>
