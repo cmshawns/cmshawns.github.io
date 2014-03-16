@@ -2,6 +2,12 @@ body {
     font-family: Consolas, sans-serif;
     background-color: white;
 }
+
+h2 {
+    color: darkslateblue;
+    margin-bottom: 0;
+}
+
 section h2 {
     background-color: darkslateblue;
     color: lightgoldenrodyellow;
@@ -51,11 +57,6 @@ p.profile-link a {
 }
 
 /* individual style overrides */
-h2#title {
-    color: darkslateblue;
-    margin-bottom: 0;
-}
-
 section#projects h3 {
     color: darkslateblue;
     border: none;
