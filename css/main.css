@@ -53,6 +53,7 @@ p.profile-link a {
 /* individual style overrides */
 h2#title {
     color: darkslateblue;
+    margin-bottom: 0;
 }
 
 section#projects h3 {
@@ -97,12 +98,21 @@ div#bountysource p.service-notes {
     font-size: 60%;
     font-weight: bold;
     padding-left: 5px;
-    max-height: 8pt;
-    vertical-align: text-bottom;
 }
 
 .jumplink a {
     text-decoration: none;
     font-weight: normal;
+}
+
+div#navigation {
+    background-color: silver;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 1px 0 1px 4px;
+}
+
+div#navigation a {
+    text-decoration: none;
 }
 
