@@ -90,6 +90,10 @@ div#bountysource p.service-notes {
     margin-top: 0;
 }
 
+section#supplies {
+    clear: left;
+}
+
 /* Generic tweaks */
 .center {
     text-align: center;
