@@ -1,180 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-		<link rel="stylesheet" href="css/unsemantic-grid-responsive.css" />
-		<link rel="stylesheet" href="css/main.css" />
-	</head>
-  <body>
-      <div id="navigation">
-          &starf;cmshawn.github.io
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <script type="text/javascript" src="js/main.js">
+  </script>
+</head>
+<body onload="injectLastModified('lastUpdated');">
+<div id="navigation">
+  &starf;cmshawn.github.io
+</div>
+<div class="grid-container">
+  <div class="grid-75">
+    <div id="greeting">
+      <h2 id="title">Hi, I'm Shawn</h2>
+
+      <p>
+        Welcome to my personal space for software development and related
+        projects.
+
+      <p>
+        During the day I work for <a href="http://www.bellevuecollege.edu/">Bellevue
+        College</a> - designing and building software solutions and managing
+        <a href="https://github.com/BellevueCollege/">their Github presence</a>
+        with my co-workers. If you're interested, check out my <a
+        href="https://github.com/shawn-bellevuecollege">work profile</a>.
+
+      <p>
+        Ethics rules can be pretty strict for State employees (which is
+        ultimately who college staff work for) so I maintain separate profiles
+        to clearly differentiate my personal work from that I do at the
+        direction of the college. The projects and work found here are
+        what I do in my own time.
+    </div>
+    <section id="projects">
+      <h2>
+        <a name="workingon">Current projects</a>
+      </h2>
+      <ul>
+        <li>
+          <h3>Enhancements to the <a href="https://github.com/BellevueCollege/CtcApi">CtcApi</a></h3>
+
+          <p>Work has not given me approval to continue work on our open source API, so I'm doing
+            that work on my own time.</p>
+          <ul>
+            <li><a href="https://github.com/BellevueCollege/CtcApi/issues">Tasks &amp; issues</a></li>
+            <li><a href="https://github.com/cmshawn/CtcApi">My fork of the source code</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>SociaLib - Social Network Integration</h3>
+
+          <p>A standardized, common, cross-platform API for social networks.</p>
+          <ul>
+            <li><a href="https://socialib.atlassian.net/">Project management</a></li>
+            <li><a href="https://github.com/cmshawn/SocialNetworkIntegration">Source code</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>myKBsearch</h3>
+
+          <p>A single point of search across multiple knowledge base sources.</p>
+          <ul>
+            <li><a href="http://cmshawn.myjetbrains.com/youtrack/issues/MKBS">Project management</a></li>
+            <li><a href="https://github.com/cmshawn/myKBsearch">Source code</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="potential-projects">
+      <h2>
+        <a name="ideas">Potential projects</a>
+      </h2>
+
+      <p>The following is a list of projects/work I'm interested in pursuing, but don't yet have the time
+        or resources to work on.
+      <ul>
+        <li>
+          A <strong>mobile app</strong> for <a href="http://www.nutritionix.com">NutritionIX</a>.
+        </li>
+        <li>
+          Help with the <a
+          href="http://monodeveloper.org/uncategorized/development-on-axcrypt-for-mac-is-stalled-call-for-developers/"
+          ><strong>Mac port</strong></a> of <a href="http://www.axantum.com/AxCrypt/Default.html">AxCrypt</a>.
+        </li>
+        <li>
+          A cross-platform client for <a href="http://www.codeproject.com/tools/ToDoList2.asp">Abstract
+          Spoon's <strong>ToDoList</strong></a>.
+        </li>
+        <li>
+          A quick <strong>rich-text generator</strong> as <a
+          href="https://twitter.com/fearthecowboy/status/448535130991128576">described in this Tweet by @fearthecowboy</a>.
+        </li>
+        <li>
+          <strong><a href="http://www.chocolatey.org">Chocolatey</a> packages</strong> for:
+          <ul>
+            <li><a href="https://www.jetbrains.com/phpstorm/">PhpStorm</a> (PHP IDE)</li>
+            <li>
+              <a href="http://cloose.github.io/CuteMarkEd/">CuteMarkEd</a> (Markdown editor) -
+              I'd also like to create an <strong>Ubuntu package</strong> for this
+            </li>
+            <li><a href="http://winmtr.net/">WinMTR</a> (traceroute + ping)</li>
+            <li><a href="http://www.axantum.com/AxCrypt/Default.html">AxCrypt</a> (encryption, wiping)</li>
+            <li>Abstract Spoon's <a href="http://www.codeproject.com/tools/ToDoList2.asp">ToDoList</a></li>
+          </ul>
+        </li>
+        <li>
+          A <a href="http://www.greasespot.net/">Greasemonky</a> script to obtain an <strong>RSS feed</strong> for a
+          folder in <a href="http://theoldreader.com">The Old Reader</a>.
+        </li>
+        <li>
+          <a href="https://diasporafoundation.org/get_involved">Help out</a> with improving the
+          <a href="https://diasporafoundation.org/"><strong>Diaspora*</strong></a> social networking platform.
+          Specifically,
+          <ul>
+            <li>
+              An <a href="https://github.com/Pistos/diaspora/wiki#in-progress"><strong>authentication
+              API</strong></a> (for apps &amp; other services).
+            </li>
+            <li>
+              Authenticated <strong>RSS feeds</strong> of users' streams and/or access to stream data via an
+              <strong>API</strong>.
+            </li>
+            <li><strong>RSS feeds</strong> of posted content.</li>
+            <li>
+              <strong>Mobile apps</strong>. (There's a <a href="https://github.com/geraspora/diaspora-android">stalled
+              effort</a> for Android.)
+            </li>
+          </ul>
+        </li>
+        <li>
+          A cross-platform, simple <strong>text-editor</strong> with features and functionality specifically for
+          writing Git commit messages. (Requested by co-worker, @jonathanwindle.)
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="grid-25">
+    <section id="profiles">
+      <h3>More about me</h3>
+      <ul>
+        <li>
+          <a href="http://careers.stackoverflow.com/shawns">Career
+            2.0 profile</a>
+        </li>
+        <li>
+          <a href="https://www.ohloh.net/accounts/cmshawn">Projects
+            contributed to</a>
+        </li>
+        <li>
+          <a href="http://codemastershawn.com/blog/">Professional blog</a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/in/codemastershawn">LinkedIn
+            profile</a>
+        </li>
+      </ul>
+    </section>
+    <section id="supportme">
+      <h3>Support my work</h3>
+
+      <div id="gittip">
+        <p>
+          You can help support the work that I do in any of the
+          following ways:
+        <ul>
+          <li>
+            via
+            <script data-gittip-username="Shawn South"
+                    data-gittip-widget="button"
+                    src="//gttp.co/v1.js"></script>
+            <noscript><a href="https://www.gittip.com/Shawn South/">GitTip</a></noscript>
+          </li>
+          <li>
+            become a Patreon patron
+          </li>
+          <li>
+            gift equipment &amp; supplies from my <a
+            href="http://amzn.com/w/38FS6SBIPEZ5">Amazon wishlist</a>
+          </li>
+        </ul>
+        <p class="center">
+          <a href="support.html">Why support Shawn?</a>
       </div>
-		<div class="grid-container">
-			<div class="grid-75">
-				<div id="greeting">
-					<h2 id="title">Hi, I'm Shawn</h2>
-					<p>
-						Welcome to my personal space for software development and related
-						projects.
-					<p>
-						During the day I work for <a href="http://www.bellevuecollege.edu/">Bellevue
-						College</a> - designing and building software solutions and managing
-						<a href="https://github.com/BellevueCollege/">their Github presence</a>
-						with my co-workers. If you're interested, check out my <a
-						href="https://github.com/shawn-bellevuecollege">work profile</a>.
-					<p>
-						Ethics rules can be pretty strict for State employees (which is
-						ultimately who college staff work for) so I maintain separate profiles
-						to clearly differentiate my personal work from that I do at the
-						direction of the college. The projects and work found here are
-						what I do in my own time.
-				</div>
-				<section id="projects">
-					<h2>
-                        <a name="workingon">Current projects</a>
-                    </h2>
-					<ul>
-                        <li>
-                            <h3>Enhancements to the <a href="https://github.com/BellevueCollege/CtcApi">CtcApi</a></h3>
-                            <p>Work has not given me approval to continue work on our open source API, so I'm doing
-                            that work on my own time.</p>
-                            <ul>
-                                <li><a href="https://github.com/BellevueCollege/CtcApi/issues">Tasks &amp; issues</a></li>
-                                <li><a href="https://github.com/cmshawn/CtcApi">My fork of the source code</a></li>
-                            </ul>
-                        </li>
-						<li>
-							<h3>SociaLib - Social Network Integration</h3>
-                            <p>A standardized, common, cross-platform API for social networks.</p>
-							<ul>
-								<li><a href="https://socialib.atlassian.net/">Project management</a></li>
-								<li><a href="https://github.com/cmshawn/SocialNetworkIntegration">Source code</a></li>
-							</ul>
-						</li>
-                        <li>
-                            <h3>myKBsearch</h3>
-                            <p>A single point of search across multiple knowledge base sources.</p>
-                            <ul>
-                                <li><a href="http://cmshawn.myjetbrains.com/youtrack/issues/MKBS">Project management</a></li>
-                                <li><a href="https://github.com/cmshawn/myKBsearch">Source code</a></li>
-                            </ul>
-                        </li>
-					</ul>
-				</section>
-                <section id="potential-projects">
-                    <h2>
-                        <a name="ideas">Potential projects</a>
-                    </h2>
-                    <p>The following is a list of projects/work I'm interested in pursuing, but don't yet have the time
-                    or resources to work on.
-                    <ul>
-                        <li>
-                            A mobile app for <a href="http://www.nutritionix.com">NutritionIX</a>.
-                        </li>
-                        <li>
-                            Help with the <a
-                            href="http://monodeveloper.org/uncategorized/development-on-axcrypt-for-mac-is-stalled-call-for-developers/"
-                            >Mac port</a> of <a href="http://www.axantum.com/AxCrypt/Default.html">AxCrypt</a>.
-                        </li>
-                        <li>
-                            A cross-platform client for <a href="http://www.codeproject.com/tools/ToDoList2.asp">Abstract
-                            Spoon's ToDoList</a>.
-                        </li>
-                        <li>
-                            A quick rich-text generator as <a href="https://twitter.com/fearthecowboy/status/448535130991128576">described
-                            in this Tweet by @fearthecowboy</a>.
-                        </li>
-                        <li>
-                            <a href="http://www.chocolatey.org">Chocolatey</a> packages for:
-                            <ul>
-                                <li><a href="https://www.jetbrains.com/phpstorm/">PhpStorm</a> (PHP IDE)</li>
-                                <li>
-                                    <a href="http://cloose.github.io/CuteMarkEd/">CuteMarkEd</a> (Markdown editor) -
-                                    <strong>I'd also like to create an Ubuntu package for this</strong>
-                                </li>
-                                <li><a href="http://winmtr.net/">WinMTR</a> (traceroute + ping)</li>
-                                <li><a href="http://www.axantum.com/AxCrypt/Default.html">AxCrypt</a> (encryption, wiping)</li>
-                                <li>Abstract Spoon's <a href="http://www.codeproject.com/tools/ToDoList2.asp">ToDoList</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            A <a href="http://www.greasespot.net/">Greasemonky</a> script to obtain an RSS feed for a
-                            folder in <a href="http://theoldreader.com">The Old Reader</a>.
-                        </li>
-                        <li>
-                            <a href="https://diasporafoundation.org/get_involved">Help out</a> with improving the
-                            <a href="https://diasporafoundation.org/">Diaspora*</a> social networking platform.
-                            Specifically,
-                            <ul>
-                                <li>
-                                    An <a href="https://github.com/Pistos/diaspora/wiki#in-progress">authentication
-                                    API</a> (for apps &amp; other services).
-                                </li>
-                                <li>Authenticated RSS feeds of users' streams and/or access to stream data via an API.</li>
-                                <li>RSS feeds of posted content.</li>
-                                <li>
-                                    Mobile apps. (There's a <a href="https://github.com/geraspora/diaspora-android">stalled
-                                    effort</a> for Android.)
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            A cross-platform, simple text-editor with features and functionality specifically for
-                            writing Git commit messages. (Requested by co-worker, @jonathanwindle.)
-                        </li>
-                    </ul>
-                </section>
-			</div>
-			<div class="grid-25">
-				<section id="profiles">
-					<h3>More about me</h3>
-					<ul>
-						<li>
-							<a href="http://careers.stackoverflow.com/shawns">Career
-							2.0 profile</a>
-						</li>
-						<li>
-							<a href="https://www.ohloh.net/accounts/cmshawn">Projects
-							contributed to</a>
-						</li>
-						<li>
-							<a href="http://codemastershawn.com/blog/">Professional blog</a>
-						</li>
-						<li>
-							<a href="http://www.linkedin.com/in/codemastershawn">LinkedIn
-							profile</a>
-						</li>
-					</ul>
-				</section>
-				<section id="supportme">
-					<h3>Support my work</h3>
-					<div id="gittip">
-						<p>
-							You can help support the work that I do in any of the
-							following ways:
-						<ul>
-							<li>
-								via
-								<script data-gittip-username="Shawn South"
-												data-gittip-widget="button"
-												src="//gttp.co/v1.js"></script>
-								<noscript><a href="https://www.gittip.com/Shawn South/">GitTip</a></noscript>
-							</li>
-							<li>
-								become a Patreon patron
-							</li>
-							<li>
-								gift equipment &amp; supplies from my <a
-								href="http://amzn.com/w/38FS6SBIPEZ5">Amazon wishlist</a>
-							</li>
-						</ul>
-						<p class="center">
-							<a href="support.html">Why support Shawn?</a>
-					</div>
-				</section>
-			</div>
-		</div>
-  </body>
+    </section>
+  </div>
+</div>
+<div id="footer">
+  <hr/>
+  <!--#include file="footer.html"-->
+  <span id="lastUpdated"></span>
+</div>
+</body>
 </html>
