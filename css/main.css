@@ -116,3 +116,12 @@ div#navigation a {
     text-decoration: none;
 }
 
+div#footer {
+    color: darkslategray;
+    font-size: 80%;
+}
+
+div#footer span#lastUpdated {
+    float: right;
+}
+
