@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
   <link rel="stylesheet" href="css/unsemantic-grid-responsive.css"/>
   <link rel="stylesheet" href="css/main.css"/>
+  <script type="text/javascript" src="js/main.js"></script>
   <title>Support Shawn's work</title>
 </head>
-<body id="support">
+<body id="support" onload="injectLastModified('lastUpdated');">
   <div id="navigation">
     &starf;<a href="index.html">cmshawn.github.io</a>
     &blacktriangleright; support Shawn
@@ -43,13 +44,13 @@
       <p>It may not have reached the public consciousness yet, but those in the tech industry see that we've
         entered a new age; the <em>Creative</em> Revolution is in full swing. The corporate structure and
         capabilities born of the previous <em>Industrial</em> Revolution are no longer restricted to those
-        with the money and social influence to grasp them. The availability of the Internet, DIY culture
+        with the money and social influence to grasp them. The availability of the Internet, Do-It-Yourself (DIY) culture
         and the advent of crowd-funding have all converged
         to provide unprecedented opportunities for the average person.
 
       <p>As mentioned above, my goal is to produce goods and services that benefit everyone - not just
-        those who can afford to pay and companies. In the same way that people give
-        to pay for schools, clean sidewalks, and all the other things that benefit society
+        companies and those who can afford to pay. In the same way that people give
+        to fund education, safe streets, and all the other things that benefit society
         as a whole, I'm asking you to help support my efforts to:
 
       <ul>
@@ -63,14 +64,14 @@
         This is not an exhaustive list. Coming up with new ideas is also part of the work I will be doing,
         but this represents a good starting point.
 
-        <!-- TODO: Move current & future work to the "expectations" section. Leave work history. -->
-
-      <p>To see examples of the work I've done to date visit my <a
-        href="https://github.com/shawn-bellevuecollege">work profile on Github</a>, <a
-        href="https://www.ohloh.net/accounts/cmshawn/positions">my Ohloh profile</a> (for projects I've lead
-        and/or contributed to), <a href="http://codemastershawn.com/blog">my professional blog</a> and our
-        <a href="http://tiny.cc/devcomwiki">dept's knowledge base</a> (for examples of my writing).
-
+      <a name="workdone">
+        <p>
+          To see examples of the work I've done to date, visit my <a href="https://github.com/shawn-bellevuecollege">work
+          profile on Github</a>, <a href="https://www.ohloh.net/accounts/cmshawn/positions">my Ohloh profile</a> (for
+          projects I've lead and/or contributed to), <a href="http://codemastershawn.com/blog">my professional blog</a>
+          and our <a href="http://tiny.cc/devcomwiki">dept's knowledge base</a> (for examples of my writing).
+        </p>
+      </a>
       <p>Let's change the world.
     </div>
     <div id="support-options">
@@ -104,8 +105,7 @@
               (<a href="https://www.bountysource.com/faq">Learn more...</a>)
             </div>
             <p class="center profile-link">
-              <a href="https://www.bountysource.com/people/24784-cmshawn"
-                 title="visit my Bountysource profile">my profile</a>
+              <a href="https://www.bountysource.com/people/24784-cmshawn" title="visit my Bountysource profile">my profile</a>
             </p>
           </div>
           <div id="bountify" class="grid-50 divider-vertical">
@@ -137,8 +137,8 @@
         <h3>Become a patron</h3>
 
         <p>
-          Patrons provide regular, recurring funding so that I can focus on working on software &amp;
-          writing instead of spending that hunting through job boards, polishing my resume and sitting in
+          <em>Patrons</em> provide regular, recurring funding so that I can focus on working on software &amp;
+          writing instead of spending that time hunting through job boards, polishing my resume and sitting in
           interviews. At the moment, I have accounts with two crowd-sourcing services that support the
           patron model:
 
@@ -209,17 +209,17 @@
         <h4>Rate my advice</h4>
 
         <p>
-          I'm a contributor on <a href="http://stackoverflow.com">Stackoverflow</a>. If you feel
-          the <a href="http://stackoverflow.com/users/1058872/shawn-south?tab=answers">answers I post</a>
+          I'm a contributor on <a href="http://stackoverflow.com">StackOverflow</a> (and other StackExchange sites).
+          If you feel the <a href="http://stackoverflow.com/users/1058872/shawn-south?tab=answers">answers I post</a>
           there are worthy, please vote them up.
 
         <h4>Share my work with others</h4>
 
         <p>Feel free to recommend, review and/or share me or my work.
 
-        <h4>Provide feedback</h4>
+        <!-- h4>Provide feedback</h4>
 
-        <p>Fill out a <a href="https://www.surveymonkey.com/s/8VKV3JS">survey about this page</a>.
+        <p>Fill out a <a href="https://www.surveymonkey.com/s/8VKV3JS">survey about this page</a>. -->
       </section>
     </div>
     <div id="expectations">
@@ -228,55 +228,52 @@
           <a name="expect">What you can expect</a>
         </h2>
 
-        <!-- TODO: Include info on what I'm doing & want to do (from section above) -->
+        <p class="center">Transparency. Honesty. Integrity.
 
-        You can
-        also see a list of projects I'm currently working on and considering at <a
-        href="index.html">http://cmshawn.github.io</a>.
+        <p>I included <a href="#workdone">references to work I've done</a> in the <em><strong>Why
+          support Shawn?</strong></em> section above, which provides a good overview of the type and quality of
+          work that I do. I also maintain a list of projects I'm <a href="index.html#projects">currently working on</a>
+          as well as additional <a href="index.html#ideas">project ideas</a> on the home page of this site. With your
+          support I can dedicate more time and resources contributing to these.
 
-        <p>I estimate that I need approximately $100k/year overall (from <em>all</em> income sources) to
+        <p>Ultimately, my <strong>long-term</strong> goal is to be able to be able completely fund such work through
+          a combination of donations, tips, bounties, commissions, part-time employment, etc. This page is but a
+          <strong>small</strong> part of that overall effort. Eventually, I hope to work directly for
+          <strong><em>you</em></strong> - all of you - rather than through the middleman of the employment industry.
+
+        <p>I estimate that I will need approximately $100k/year overall (from <em>all</em> income sources) to
           replace what I currently get from traditional employment - including expenses like healthcare
           insurance, tax payments, etc. This roughly breaks down to around $8k/month or $2k/week. My
           plan is for <strong>a portion</strong> of this income to come from crowd-funding sources like
-          the ones suggested here.
+          the ones listed above.
 
-        <p>
-          I won't lie to you; this is all going to build slowly - for me as well as you. It's a Catch-22,
-          chicken-and-egg situation: I need to raise enough money to be able to quit my job, so I have
-          time to spend on all the work you're funding me to do. But, of course, you'd like to see some
-          results before you dump a bunch of money into my pocket. That's reasonable.
-
-        <p>
-          Hopefully my current resume and existing work history, even if established through more
-          traditional means, gives you some feel for my skill and abilities. I'm also working on a few
-          ideas to provide as much transparency as possible and maybe even offer some incentives for
-          higher contribution levels. It's still early stages, but here are some of the ideas I've been
-          thinking about:
+        <p>In the meantime, I will be setting up more ways to communicate what I'm working on and where the money
+          is/will be going. Some of the other ideas I'm considering include:
         <ul>
           <li>
             <strong>Regular, public stand-ups</strong> - in the style of Agile Scrum. A friend
             suggested IRC, but I'm also considering an audio recording; kind of a mini-podcast.
           </li>
           <li>
-            <strong>A donation level that allows voting</strong> on what I will work on. This (and
-            the next idea) would likely be done through Patreon.
+            <strong>A donation level that allows voting</strong> on what I will work on.
           </li>
           <li>
             <strong>A donation level that can request projects/bugs/features</strong> for me to work
             on.
           </li>
         </ul>
-        I&apos;m also open to hearing your ideas. While I do expect to also be doing freelance
-        work-for-hire,
-        I&apos;d like to keep these funding efforts in the realm of Open Source so everybody can benefit.
-        <p>
-          And, of course, you're always free to withdraw your support. Both of the patron-based services
-          I've chosen allow you to cancel your recurring payment at any time. I hope that as we travel
-          down this road together I don't give you reason to do so, but I also understand that it's
-          <strong>your</strong> money and you can do whatever you want with it. With any luck we can
-          use it make the world a better place :-)
+        <p>When I need to pay for the services of others I also plan to utilize fellow crowd-funded workers. My
+          goal isn't just to free myself from the employment industry, but to support and build these new opportunities
+          that we <strong>all</strong> have.
+
+        <p>Watch <a href="http://codemastershawn.com/blog">my blog</a> for announcements and updates.
       </section>
     </div>
+  </div>
+  <div id="footer">
+    <hr/>
+    <!--#include file="footer.html"-->
+    <span id="lastUpdated"></span>
   </div>
 </body>
 </html>
