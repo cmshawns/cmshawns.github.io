@@ -130,3 +130,18 @@ div#footer span#lastUpdated {
     float: right;
 }
 
+div.alert {
+    text-align: center;
+}
+div.alert p {
+    border: solid darkred;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+    margin: 12pt auto 0;
+}
+.alert a {
+    font-weight: bold;
+}
+
