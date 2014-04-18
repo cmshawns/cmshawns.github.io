@@ -161,3 +161,14 @@ div.alert p {
     font-size: 80%;
 }
 
+#featureBox div.highlight {
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.highlight p {
+    margin: 10px;
+}
+
